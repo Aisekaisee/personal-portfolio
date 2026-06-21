@@ -63,7 +63,7 @@ export interface BlogPost {
 
 export const profile: Profile = {
   name: "Vipul Kohli",
-  avatar: "/avatar.png",
+  avatar: "/avatar-new.png",
   title: "Software Engineer & Systems Developer",
   bio: "I am a Computer Science & Engineering student and software engineer specializing in backend systems, high-performance web APIs, and systems engineering. I build optimized IoT data pipelines, multi-threaded packet processors, and discrete event simulation engines.",
   location: "New Delhi, India",
@@ -165,18 +165,6 @@ export const projects: Project[] = [
     description: "Built a high-throughput, multi-threaded C++ DPI engine utilizing flow-aware load balancing via 5-tuple hashing. Deployed lock-free inter-stage queues and a stateful connection tracker with automated TTL-based eviction.",
     image: "/project-blockchain.png",
     tags: ["C++", "Multithreading", "Networking", "CMake"],
-    links: {
-      source: "https://github.com/Aisekaisee",
-    },
-  },
-  {
-    name: "zk-Proof Escrow Protocol",
-    category: "web3",
-    status: "Completed",
-    date: "Feb 2025",
-    description: "Developed a prototype for a privacy-preserving smart contract payroll escrow platform during the Blockathon IIT Roorkee 2025.",
-    image: "/project-blockchain.png",
-    tags: ["Solidity", "ZK-Proofs", "Circom", "React", "Hardhat"],
     links: {
       source: "https://github.com/Aisekaisee",
     },
